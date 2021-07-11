@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+  .Connexion_container {
+    background-color: red;
+  }
+
+  .left_wrapper {
+    height: 10em;
+    display: none;
+  }
+
+  .right_wrapper {
+    height: 18em;
+    background-color: white;
+  }
+
+  .middle_wrapper {
+    background-color: white;
+    width: 101%;
+    height: 20em;
+    clip-path: ellipse(418px 52px at 5% 102%);
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  .Connexion_container {
+    display: flex;
+  }
+
+  .left_wrapper {
+    width: 60%;
+    height: 40em;
+  }
+
+  .middle_wrapper {
+    background-color:white;
+    width: 10%;
+    height: 40em;
+    clip-path: ellipse(74px 546px at 71% 29%);
+  }
+
+  .right_wrapper {
+    width: 40%;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+}
