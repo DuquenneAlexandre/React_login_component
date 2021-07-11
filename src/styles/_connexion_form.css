@@ -1,20 +1,16 @@
 @font-face {
-font-family: "edo";
-src: local("edo"),
- url("../fonts/edo.ttf") format("truetype");
-font-weight: bold;
+  font-family: "edo";
+  src: local("edo"),
+    url("../fonts/edo.ttf") format("truetype");
+  font-weight: bold;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
-  .Connexion_form {
-  }
+
   h1 {
     font-family: edo;
     color: #D291BC;
-      margin-top: 0em;
+    margin-top: 0em;
   }
 
   .Wrapper_wrong_pass_log {
@@ -74,7 +70,6 @@ font-weight: bold;
   .label_forgot_password {
     font-family: edo;
     font-size: 1em;
-
   }
 
   .button_connexion_form {
@@ -89,71 +84,70 @@ font-weight: bold;
     margin-top: 10em;
   }
 
-h1 {
-  font-family: edo;
-  color: #D291BC;
+  h1 {
+    font-family: edo;
+    color: #D291BC;
+  }
 
-}
+  .Wrapper_wrong_pass_log {
+    color: red;
+    display: none;
+    font-family: edo;
+  }
 
-.Wrapper_wrong_pass_log {
-  color: red;
-  display: none;
-  font-family: edo;
-}
+  .Wrapper_username {
+    font-family: edo;
+    padding-bottom: 2em;
+  }
 
-.Wrapper_username {
-  font-family: edo;
-  padding-bottom: 2em;
-}
+  .username_label {
+    font-family: edo;
+    font-size: 1em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    display: none;
+  }
 
-.username_label {
-  font-family: edo;
-  font-size: 1em;
-  padding-bottom: 2em;
-  padding-left: 4em;
-  display: none;
-}
+  .username_input {
+    font-family: edo;
+    width: 15em;
+    height: 2em;
+    text-align: center;
+  }
 
-.username_input {
-  font-family: edo;
-  width: 15em;
-  height: 2em;
-  text-align: center;
-}
+  .Wrapper_password {
+    font-family: edo;
+    padding-bottom: 2em;
+  }
 
-.Wrapper_password {
-  font-family: edo;
-  padding-bottom: 2em;
-}
+  .password_label {
+    font-family: edo;
+    font-size: 1em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    display: none;
+  }
 
-.password_label {
-  font-family: edo;
-  font-size: 1em;
-  padding-bottom: 2em;
-  padding-left: 4em;
-  display: none;
-}
+  .password_input {
+    font-family: edo;
+    width: 15em;
+    height: 2em;
+    text-align: center;
+  }
 
-.password_input {
-  font-family: edo;
-  width: 15em;
-  height: 2em;
-  text-align: center;
-}
+  .Wrapper_forgot_password {
+    font-family: edo;
+  }
 
-.Wrapper_forgot_password {
-  font-family: edo;
-}
+  .label_forgot_password {
+    font-family: edo;
+    font-size: 1em;
+    padding-left: 2em;
+  }
 
-.label_forgot_password {
-  font-family: edo;
-  font-size: 1em;
-  padding-left: 2em;
-}
-
-.button_connexion_form {
-  padding-top: 2em;
-  padding-left: 4em;
-}
+  .button_connexion_form {
+    padding-top: 2em;
+    padding-left: 4em;
+  }
 
 }

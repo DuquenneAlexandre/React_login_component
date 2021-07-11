@@ -5,8 +5,8 @@ import Connexion from './Connexion'
 const Home = () => {
   return (
     <div>
-    <Navigation/>
-    <Connexion />
+      <Navigation/>
+      <Connexion />
     </div>
   )
 }
